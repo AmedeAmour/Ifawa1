@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": null,
-  "installCommand": null,
+  "buildCommand": "node -e \"console.log('Using the validated static application from dist')\"",
+  "installCommand": "node -e \"console.log('No dependency installation required')\"",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
