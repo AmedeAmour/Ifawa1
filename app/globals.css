@@ -12,7 +12,8 @@ button { font:inherit; }
 .experience-shell { width:min(100%,1040px); min-height:100vh; margin:0 auto; position:relative; z-index:1; border-inline:1px solid rgba(255,255,255,.025); background:rgba(10,17,16,.72); backdrop-filter:blur(16px); }
 .topbar { height:82px; display:flex; align-items:center; justify-content:space-between; padding:0 30px; border-bottom:1px solid var(--line); }
 .brand { display:flex; align-items:center; gap:12px; border:0; background:none; color:inherit; cursor:pointer; text-align:left; }
-.brand-mark { width:41px; height:41px; display:grid; place-items:center; color:var(--green); border:1px solid rgba(127,184,165,.35); border-radius:50%; background:rgba(127,184,165,.06); }
+.brand-mark { width:46px; height:46px; display:grid; place-items:center; }
+.brand-mark img { width:44px; height:44px; display:block; object-fit:contain; }
 .brand strong,.brand small { display:block; }.brand strong { font-size:18px; }.brand small { color:var(--muted); font-size:12px; margin-top:2px; }
 .step-indicator { display:flex; align-items:center; gap:10px; color:var(--muted); font-size:13px; }.step-indicator i { width:7px; height:7px; border-radius:50%; background:var(--terra); box-shadow:0 0 0 5px rgba(199,121,79,.1); }
 .content-frame { padding:clamp(36px,7vw,74px) clamp(22px,7vw,76px) 70px; }.stage { width:min(100%,820px); margin:0 auto; }.stage-centered { max-width:690px; text-align:center; }

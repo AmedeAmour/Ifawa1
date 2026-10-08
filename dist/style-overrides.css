@@ -5,6 +5,20 @@
   margin-top: 34px;
 }
 
+.brand .mark {
+  width: 46px;
+  height: 46px;
+  border: 0;
+  background: transparent;
+}
+
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  display: block;
+  object-fit: contain;
+}
+
 .mode-choice {
   min-height: 82px;
   display: grid;

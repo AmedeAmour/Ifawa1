@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Check, ChevronLeft, Hand, RotateCcw, Shell, Sparkles } from "lucide-react";
+import { Check, ChevronLeft, Hand, RotateCcw, Sparkles } from "lucide-react";
 import { createHiddenGrid, DOMAINS, SIGNS, TOTAL_SHELLS, type ShellFace } from "./consultation-data";
 
 type Stage = "prepare" | "mode" | "digital" | "physical" | "general" | "domain" | "personalized";
@@ -80,7 +80,7 @@ export function ConsultationExperience() {
       <section className="experience-shell">
         <header className="topbar">
           <button className="brand" type="button" onClick={reset} aria-label="Revenir au début">
-            <span className="brand-mark"><Shell size={21} strokeWidth={1.7} /></span>
+            <span className="brand-mark"><img src="/ifawa-logo.png" alt="" /></span>
             <span><strong>IfâWa</strong><small>Consultation des seize cauris</small></span>
           </button>
           <div className="step-indicator"><span>{STEP_LABELS[stage]}</span><i /></div>
