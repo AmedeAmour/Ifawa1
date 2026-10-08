@@ -1,0 +1,17 @@
+{
+  "name": "IfâWa",
+  "short_name": "IfâWa",
+  "description": "Application de consultation traditionnelle des seize cauris.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1110",
+  "theme_color": "#0a1110",
+  "icons": [
+    {
+      "src": "/ifawa-app-icon.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
